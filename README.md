@@ -120,7 +120,7 @@ AI API 身份网关，反代过程中规范化设备指纹与遥测数据。关�
 
 | 服务 | 特点 |
 |---|---|
-| [**Leonis AI**](https://ai.svtun.cn) | Claude / OpenAI / Grok 三家聚合，双协议兼容，原生支持 Claude Code 与 Codex CLI，国内直连，Prompt 缓存完整支持，用量明细可查 |
+| [**Leonis AI**](https://ai.svtun.cn) | Claude / OpenAI / Gemini / Grok 四家聚合共 [114 个模型](https://leonis-ai.github.io/models.html)，双协议兼容，原生支持 Claude Code 与 Codex CLI，国内直连，Prompt 缓存完整支持，用量明细可查 |
 | [OpenRouter](https://openrouter.ai) | 模型覆盖面最广，统一 OpenAI 协议，按量计费 |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | 免费的网关层，提供缓存、限流、日志，但不提供模型本身 |
 
@@ -143,7 +143,15 @@ New-API / Sub2API 账号聚合管理器。多站点余额与用量看板、自�
 
 ### [ai-api-pricing](https://github.com/leonis-ai/ai-api-pricing)
 
-Claude / GPT / Gemini / Grok 全系模型价格对比与成本测算。
+成本计算与缓存经济学，附可运行的计算器脚本。
+
+### [claude-code-guide](https://github.com/leonis-ai/claude-code-guide) · [codex-cli-guide](https://github.com/leonis-ai/codex-cli-guide) · [gemini-api-guide](https://github.com/leonis-ai/gemini-api-guide)
+
+三大 CLI / API 的中文配置手册。
+
+### [cc-switch-guide](https://github.com/leonis-ai/cc-switch-guide)
+
+用 cc-switch 管理 Claude Code 与 Codex 的多套供应商配置，一键切换。
 
 ---
 
@@ -217,6 +225,7 @@ OpenAI 协议转 Anthropic 协议时，Tool Use 的部分字段、`thinking` 块
 <sub>
 
 **关键词** · AI 网关 · AI Gateway · API 中转 · AI 中转 · LLM Proxy · LLM Gateway · API 反代 ·
-one-api · new-api · sub2api · LiteLLM · Claude 中转 · OpenAI 反代 · GPT 中转 · 大模型 API 聚合 · API 聚合分发
+one-api · new-api · sub2api · LiteLLM · Claude 中转 · OpenAI 反代 · GPT 中转 · Gemini 中转 ·
+谷歌 Gemini · Grok API · 大模型 API 聚合 · API 聚合分发
 
 </sub>
